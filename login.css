@@ -1,0 +1,85 @@
+@import url('http://fonts.cdnfonts.com/css/battlestar');
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+input{
+    position: relative;
+    left: 699px;
+    top: 232px;
+    border-radius: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    height: 40px;
+    width: 260px;
+    font-weight: normal;
+}
+
+
+  input[type=submit]{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    position: relative;
+    top: 333px;
+    left: 703px;
+    font-family: 'Battlestar', sans-serif;
+    text-decoration: none;
+  }
+
+
+  
+  
+  input[type=submit]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  @media screen and (max-width: 995px), 
+  screen and (max-height: 700px){
+    input{
+        position: relative;
+        left: 65px;
+    }
+
+    input[type=submit]{
+      padding: 7px 25px;
+      font-size: 18px;
+      font-weight: normal;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: green;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 5px #999;
+      position: relative;
+      top: 531px;
+      left: 69px;
+      font-family: 'Battlestar', sans-serif;
+      text-decoration: none;
+
+  }
+}
+
+
+  
+  
+
+    
+
+

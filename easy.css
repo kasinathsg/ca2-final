@@ -1,0 +1,224 @@
+@import url('http://fonts.cdnfonts.com/css/battlestar');
+body {
+
+    text-align: center;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 99%;
+    height: 10%;
+    position: fixed;
+
+
+}
+
+#logo{
+    height: 300px;
+    width: 550px;
+    position: relative;
+    left: -20px;
+    
+}
+#board {
+    width: 390px;
+    height: 390px;
+    border: 5px solid #DBA800;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    position: relative;
+    top: -26px;
+    left: -245px;
+    animation: transition 1.6s;
+}
+
+#board img {
+    width: 192px;
+    height: 192px;
+    border: 1.5px solid black;
+    animation: transition 1.6s;
+}
+
+#ref{
+    width: 390px;
+    height: 390px;
+    border: 5px solid #DBA800;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -426px;
+    left: 211px;
+    animation: transition 2s;
+}
+
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+h1{
+    color: white;
+    position: relative;
+    top: -993px;
+    left: -660px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+}
+
+#back{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    height: 184px;
+    width: 860px;
+    left: -710px;
+    top: -460px;
+    animation: transition 2s; 
+    text-decoration: none;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 700px;
+    top: -1144px;
+    color: white;
+    font-size: 60px;
+    
+}
+
+.a {
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    position: relative;
+    top: -639px;
+    left: -7px;
+    font-family: 'Battlestar', sans-serif;
+    text-decoration: none;
+  }
+
+  .a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 695px), 
+       screen and (max-height: 700px){
+    body{
+       background-attachment: fixed;
+    }
+
+    #logo{
+        height: 150px;
+        width: 300px;
+        position: relative;
+        left: -3px;
+    }
+
+    #board{
+        height: 180px;
+        width: 180px;
+        border: 5px solid #DBA800;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        position: relative;
+        top: 12px;
+        left: 2px;
+        animation: transition 1.6s;
+    }
+
+    #board img{
+        height: 88px;
+        width: 88px;
+        border: 0.5px solid black;
+        animation: transition 1.6s;
+    }
+    #ref{
+        width: 180px;
+        height: 180px;
+        border: 5px solid #DBA800;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 56px;
+        left: 3px;
+        animation: transition 2s;
+    }
+    h1{
+        color: white;
+        position: relative;
+        top: 68px;
+        left: -1px;
+        font-family: 'Battlestar', sans-serif;
+        font-weight: normal;
+    }
+    .a {
+        padding: 7px 25px;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: green;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #999;
+        position: relative;
+        top: -29px;
+        left: -7px;
+        font-family: 'Battlestar', sans-serif;
+        text-decoration: none;
+      }
+    
+      .a:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      h2{
+        font-family: 'Battlestar', sans-serif;
+        font-weight: normal;
+        position: relative;
+        left: 137px;
+        top: -604px;
+        color: white;
+        font-size: 30px;
+        
+    }
+
+    #back{
+        position: relative;
+        left: 0px;
+        top: 152px;
+      }
+
+    }   

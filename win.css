@@ -1,0 +1,75 @@
+@import url('http://fonts.cdnfonts.com/css/battlestar');
+
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#back{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    height: 184px;
+    width: 860px;
+    left: -480px;
+    top: 270px;
+    animation: transition 2s; 
+    text-decoration: none;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+}
+
+img{
+    position: relative;
+    left: 550px;
+    top: 150px;
+}
+
+#score-board{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    top: 270px;
+    animation: transition 2s; 
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+}
+
+
+@media (max-width:600px){
+    body{
+        background-attachment: fixed;
+    }
+
+    img{
+        height: 201px;
+        width: 226px;
+        position: relative;
+        left: 86px;
+        top: 176px;
+    }
+
+    #back{
+        position: relative;
+        top: 602px;
+        left: -85px;
+    }
+
+    #score-board{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 33px;
+        top: 508px;
+        animation: transition 2s;
+        font-family: 'Battlestar', sans-serif;
+        font-weight: normal;
+    }
+}
+
+
+

@@ -1,0 +1,148 @@
+@import url('http://fonts.cdnfonts.com/css/battlestar');
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: fit-content;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+#easy{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 239px;
+    left: 740px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px greenyellow;
+    animation: transition 2s;
+}
+
+#med{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 329px;
+    left: 613px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px orange;
+    animation: transition 2s;
+}
+
+#hard{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 419px;
+    left: 490px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px red;
+    animation: transition 2s;
+}
+
+header{
+    color: white;
+    position: relative;
+    top: 146px;
+    left: 460px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    animation: transition 2s;
+}
+
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+#back{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    height: 184px;
+    width: 860px;
+    margin: 0px 0px 0px 0px;
+    left: -304px;
+    top: 670px;
+    animation: transition 2s; 
+    text-decoration: none;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 995px), 
+       screen and (max-height: 700px){
+    body{
+        background-attachment: fixed;
+        position: fixed;
+    }
+    #easy{
+        text-decoration: none;
+    color: white;
+    position: relative;
+    top: 142px;
+    left: 142px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px greenyellow;
+    animation: transition 2s;
+    }
+
+    #med{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 212px;
+        left: 18px;
+        font-family: 'Battlestar', sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        text-shadow: 2px 2px 8px orange;
+        animation: transition 2s;
+    }
+
+    #hard{
+        text-decoration: none;
+    color: white;
+    position: relative;
+    top: 291px;
+    left: -106px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px red;
+    animation: transition 2s;
+    }
+
+    header{
+        color: white;
+    position: relative;
+    top: 84px;
+    left: 45px;
+    font-family: 'Battlestar', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    animation: transition 2s;
+    }
+
+    #back{
+        position: relative;
+        left: 146px;
+    }
+
+}
